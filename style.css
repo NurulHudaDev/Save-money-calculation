@@ -1,0 +1,22 @@
+img{
+    width: 500px;
+}
+.site-bar{
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px gray;
+    padding: 20px 80px;
+}
+.calculate-btn{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #59A5FF;
+}
+.save input{
+    width: 80px;
+}
+.save-btn{
+    padding: 3px 30px;
+    border: none;
+    background-color: #59A5FF;
+}
