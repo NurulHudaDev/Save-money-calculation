@@ -16,10 +16,10 @@ img{
 /* Save */
 .save input{
     padding: 5px 30px;
-    width: 80px;
+    width: 90px;
 }
 .save-btn{
-    padding: 8px 30px;
+    padding: 8px 40px;
     border: none;
     background-color: #59A5FF;
 }
