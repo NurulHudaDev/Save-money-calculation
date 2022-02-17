@@ -33,10 +33,6 @@ function saveBtn(){
 // Remaining balance
     const remainingBalance = document.getElementById('remaining-balance');
     remainingBalance.innerText = balance.innerText - savingAmount.innerText;
-
-    if(balance.innerText < remainingBalance.innerText){
-        alert('please type positive number nnnnnnnnnnnnnnnnn');
-    }
 }
 
 
