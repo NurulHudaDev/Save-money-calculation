@@ -10,6 +10,13 @@ function calculateBtn(){
     ExpensesOutput.innerText = parseFloat(foodInputValue.value) + parseFloat(rentInputValue.value) + parseFloat(clothesInputValue.value);
     const balance = document.getElementById('balance');
     balance.innerText = parseFloat(incomeInputValue.value) - ExpensesOutput.innerText;
+
+    if(incomeInputValue.value == '' && foodInputValue.value == '' && rentInputValue.value == '' && clothesInputValue.value ==''){
+        alert('please input field type');
+    }
+    if((isNaN(incomeInputValue.value)) && (isNaN(foodInputValue.value)) && (isNaN(rentInputValue.value)) && (isNaN(clothesInputValue.value))){
+        alert('please type number');
+    }
 }
 
 // Save
