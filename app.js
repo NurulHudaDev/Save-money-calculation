@@ -14,8 +14,11 @@ function calculateBtn(){
     if(incomeInputValue.value == '' && foodInputValue.value == '' && rentInputValue.value == '' && clothesInputValue.value ==''){
         alert('please input field type');
     }
-    if((isNaN(incomeInputValue.value)) && (isNaN(foodInputValue.value)) && (isNaN(rentInputValue.value)) && (isNaN(clothesInputValue.value))){
+    else if((isNaN(incomeInputValue.value)) && (isNaN(foodInputValue.value)) && (isNaN(rentInputValue.value)) && (isNaN(clothesInputValue.value))){
         alert('please type number');
+    }
+    else if((incomeInputValue.value || foodInputValue.value || rentInputValue.value || clothesInputValue.value) < 0){
+        alert('please type positive number');
     }
 }
 
