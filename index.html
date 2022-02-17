@@ -46,16 +46,17 @@
                          <input id="clothes" type="text">
                        </div>
                        <!-- Calculate -->
-                       <button id="calculate-btn" class="calculate-btn mt-3">Calculate</button>
+                       <button onclick="calculateBtn()" class="calculate-btn mt-3">Calculate</button>
                        <h4 class="mt-3">Total Expenses: <span id="total-expenses">00</span> </h4>
                        <h4 class="mt-2">Balance: <span id="balance">00</span></h4>
+                       <!-- Save -->
                        <div class="save mt-4">
                          Save:
-                         <input type="text">
+                         <input id="save-input" type="text">
                          %
-                         <button class="save-btn">Save</button>
-                         <h4 class="mt-3">Saving Amount: 2000</h4>
-                         <h4 class="mt-2">Remaining Balance: 2500</h4>
+                         <button onclick="saveBtn()" class="save-btn">Save</button>
+                         <h4 class="mt-3">Saving Amount: <span id="Saving-amount">00</span></h4>
+                         <h4 class="mt-2">Remaining Balance: <span id="remaining-balance">00</span></h4>
                        </div>
                       </div>
                     </div>
