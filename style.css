@@ -1,5 +1,5 @@
 img{
-    width: 500px;
+    width: 80%;
 }
 .site-bar{
     background-color: #fff;
@@ -8,7 +8,7 @@ img{
 }
 .calculate-btn{
     border: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: #59A5FF;
 }
